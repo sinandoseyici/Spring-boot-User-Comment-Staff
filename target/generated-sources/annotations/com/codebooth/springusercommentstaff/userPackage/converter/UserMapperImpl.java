@@ -10,7 +10,7 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-07-06T00:13:47+0300",
+    date = "2022-07-06T00:26:27+0300",
     comments = "version: 1.5.1.Final, compiler: javac, environment: Java 17.0.3.1 (Oracle Corporation)"
 )
 public class UserMapperImpl implements UserMapper {
@@ -59,6 +59,7 @@ public class UserMapperImpl implements UserMapper {
         user.setName( userSaveRequestDto.getName() );
         user.setSurname( userSaveRequestDto.getSurname() );
         user.setEmail( userSaveRequestDto.getEmail() );
+        user.setPhoneNumber( userSaveRequestDto.getPhoneNumber() );
         user.setBirthdate( userSaveRequestDto.getBirthdate() );
 
         return user;
@@ -75,6 +76,7 @@ public class UserMapperImpl implements UserMapper {
         user.setId( userUpdateRequestDto.getId() );
         user.setSurname( userUpdateRequestDto.getSurname() );
         user.setEmail( userUpdateRequestDto.getEmail() );
+        user.setPhoneNumber( userUpdateRequestDto.getPhoneNumber() );
 
         return user;
     }

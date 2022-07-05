@@ -10,7 +10,7 @@ import javax.annotation.processing.Generated;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-07-06T00:13:48+0300",
+    date = "2022-07-06T00:26:27+0300",
     comments = "version: 1.5.1.Final, compiler: javac, environment: Java 17.0.3.1 (Oracle Corporation)"
 )
 public class UserCommentMapperImpl implements UserCommentMapper {

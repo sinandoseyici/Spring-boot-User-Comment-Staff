@@ -12,7 +12,7 @@ public class UserSaveRequestDto implements Serializable {
     private String name;
     private String surname;
     private String email;
-    private String phone;
+    private String phoneNumber;
     private Date birthdate;
 
 }
