@@ -1,4 +1,4 @@
-package com.codebooth.springusercommentstaff.user;
+package com.codebooth.springusercommentstaff.userPackage.user;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package com.codebooth.springusercommentstaff.dto;
+package com.codebooth.springusercommentstaff.userPackage.dto;
 
 import lombok.Data;
 

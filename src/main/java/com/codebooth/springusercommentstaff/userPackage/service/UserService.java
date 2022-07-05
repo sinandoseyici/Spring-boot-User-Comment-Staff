@@ -1,11 +1,11 @@
-package com.codebooth.springusercommentstaff.service;
+package com.codebooth.springusercommentstaff.userPackage.service;
 
-import com.codebooth.springusercommentstaff.converter.UserMapper;
-import com.codebooth.springusercommentstaff.dto.UserDto;
-import com.codebooth.springusercommentstaff.dto.UserSaveRequestDto;
-import com.codebooth.springusercommentstaff.dto.UserUpdateRequestDto;
-import com.codebooth.springusercommentstaff.service.entitiyservice.UserEntityService;
-import com.codebooth.springusercommentstaff.user.User;
+import com.codebooth.springusercommentstaff.userPackage.converter.UserMapper;
+import com.codebooth.springusercommentstaff.userPackage.dto.UserDto;
+import com.codebooth.springusercommentstaff.userPackage.dto.UserSaveRequestDto;
+import com.codebooth.springusercommentstaff.userPackage.dto.UserUpdateRequestDto;
+import com.codebooth.springusercommentstaff.userPackage.service.entitiyservice.UserEntityService;
+import com.codebooth.springusercommentstaff.userPackage.user.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

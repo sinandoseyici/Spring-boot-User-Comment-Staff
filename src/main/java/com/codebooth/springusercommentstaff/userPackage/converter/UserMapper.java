@@ -1,10 +1,10 @@
-package com.codebooth.springusercommentstaff.converter;
+package com.codebooth.springusercommentstaff.userPackage.converter;
 
 
-import com.codebooth.springusercommentstaff.dto.UserDto;
-import com.codebooth.springusercommentstaff.dto.UserSaveRequestDto;
-import com.codebooth.springusercommentstaff.dto.UserUpdateRequestDto;
-import com.codebooth.springusercommentstaff.user.User;
+import com.codebooth.springusercommentstaff.userPackage.dto.UserDto;
+import com.codebooth.springusercommentstaff.userPackage.dto.UserSaveRequestDto;
+import com.codebooth.springusercommentstaff.userPackage.dto.UserUpdateRequestDto;
+import com.codebooth.springusercommentstaff.userPackage.user.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
 import org.mapstruct.factory.Mappers;

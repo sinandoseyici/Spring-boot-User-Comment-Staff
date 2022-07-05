@@ -1,9 +1,9 @@
-package com.codebooth.springusercommentstaff.controller;
+package com.codebooth.springusercommentstaff.userPackage.controller;
 
-import com.codebooth.springusercommentstaff.dto.UserDto;
-import com.codebooth.springusercommentstaff.dto.UserSaveRequestDto;
-import com.codebooth.springusercommentstaff.dto.UserUpdateRequestDto;
-import com.codebooth.springusercommentstaff.service.UserService;
+import com.codebooth.springusercommentstaff.userPackage.dto.UserDto;
+import com.codebooth.springusercommentstaff.userPackage.dto.UserSaveRequestDto;
+import com.codebooth.springusercommentstaff.userPackage.dto.UserUpdateRequestDto;
+import com.codebooth.springusercommentstaff.userPackage.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

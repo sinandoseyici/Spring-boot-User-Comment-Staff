@@ -1,7 +1,7 @@
-package com.codebooth.springusercommentstaff.service.entitiyservice;
+package com.codebooth.springusercommentstaff.userPackage.service.entitiyservice;
 
-import com.codebooth.springusercommentstaff.dao.UserDao;
-import com.codebooth.springusercommentstaff.user.User;
+import com.codebooth.springusercommentstaff.userPackage.dao.UserDao;
+import com.codebooth.springusercommentstaff.userPackage.user.User;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
