@@ -26,7 +26,7 @@ public class UserController {
     @GetMapping("/{id}")
     public UserDto findById(@PathVariable Long id){
         UserDto userDto = userService.findById(id);
-        return userDto
+        return userDto;
     }
 
     @PostMapping
